@@ -34,18 +34,18 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback-config/issues</url>
+        <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/issues</url>
     </issueManagement>
     <ciManagement>
         <system>travis-ci</system>
-        <url>https://travis-ci.org/tomcat-slf4j-logback/tomcat9-slf4j-logback-config</url>
+        <url>https://travis-ci.org/tomcat-slf4j-logback/tomcat-slf4j-logback-config</url>
     </ciManagement>
 
     <distributionManagement>
         <site>
             <id>gh-pages</id>
             <name>Tomcat Slf4j Logback Config GitHub Pages</name>
-            <url>git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback-config.git?gh-pages#</url>
+            <url>git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git?gh-pages#</url>
         </site>
     </distributionManagement>
 
