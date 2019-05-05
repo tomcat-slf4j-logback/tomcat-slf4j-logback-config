@@ -16,7 +16,7 @@
 
     <property name="max.retention.days" value="60" />
 
-    <!-- always a good activate OnConsoleStatusListener -->
+    <!-- always good activate OnConsoleStatusListener -->
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" /> 
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
