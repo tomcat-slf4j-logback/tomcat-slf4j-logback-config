@@ -1,5 +1,5 @@
 @REM
-@REM Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/)
+@REM Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/)
 @REM
 @REM Copyright (c) 2010-2019 Tomcat-Slf4j-Logback.
 @REM

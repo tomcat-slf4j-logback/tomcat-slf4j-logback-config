@@ -1,5 +1,5 @@
 #
-# Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/)
+# Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/)
 #
 # Copyright (c) 2010-2019 Tomcat-Slf4j-Logback.
 #
