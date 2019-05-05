@@ -37,7 +37,7 @@
 
     <fileSets>
         <fileSet>
-            <directory>${main.basedir}</directory>
+            <directory>${project.build.directory}/tomcat-slfj4-logback-config/assembly</directory>
             <outputDirectory />
             <includes>
                 <include>LICENSE</include>
@@ -45,7 +45,7 @@
             <lineEnding>unix</lineEnding>
         </fileSet>
         <fileSet>
-            <directory>${main.basedir}/src/assembly</directory>
+            <directory>${project.build.directory}/tomcat-slfj4-logback-config/assembly/</directory>
             <outputDirectory />
             <includes>
                 <include>LICENSE-logback.txt</include>
@@ -55,7 +55,7 @@
             <lineEnding>unix</lineEnding>
         </fileSet>
         <fileSet>
-            <directory>${main.basedir}/src/assembly/bin</directory>
+            <directory>${project.build.directory}/tomcat-slfj4-logback-config/assembly/bin</directory>
             <outputDirectory>bin</outputDirectory>
             <includes>
                 <include>setenv.bat</include>
@@ -64,7 +64,7 @@
             <lineEnding>unix</lineEnding>
         </fileSet>
         <fileSet>
-            <directory>${main.basedir}/src/assembly/conf</directory>
+            <directory>${project.build.directory}/tomcat-slfj4-logback-config/assembly/conf</directory>
             <outputDirectory>conf</outputDirectory>
             <includes>
                 <include>logback-access.xml</include>
