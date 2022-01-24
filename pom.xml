@@ -45,7 +45,7 @@
         <site>
             <id>gh-pages-scm</id>
             <name>Tomcat Slf4j Logback Config GitHub Pages</name>
-            <url>git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</url>
+            <url>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</url>
         </site>
     </distributionManagement>
 
