@@ -1,5 +1,9 @@
 Notable Changes
 ---------------
+Release 1.3.0
+
+ - Require java 8
+
 Release 1.2.0
 
  - Build updates / using parent with changes to dependency stack to optional
