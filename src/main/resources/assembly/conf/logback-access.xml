@@ -49,7 +49,7 @@
     <appender name="ACCESS-LOG" class="org.apache.juli.logging.ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.base}/logs/localhost-access.log</file>
         <append>true</append>
-        <encoder class="org.apache.juli.logging.net.logstash.logback.encoder.LogstashAccessEncoder" />
+        <encoder class="net.logstash.logback.encoder.LogstashAccessEncoder" />
         <rollingPolicy class="org.apache.juli.logging.ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${catalina.base}/logs/archive/localhost-access-%d{yyyyMMdd}-%i.log.tar.gz</fileNamePattern> 
             <maxHistory>${max.retention.days}</maxHistory>
