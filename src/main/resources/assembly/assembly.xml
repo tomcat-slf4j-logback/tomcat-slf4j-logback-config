@@ -23,6 +23,18 @@
 
     <includeBaseDirectory>false</includeBaseDirectory>
 
+    <dependencySets>
+        <dependencySet>
+            <unpack>false</unpack>
+            <scope>runtime</scope>
+            <outputDirectory>lib</outputDirectory>
+            <includes>
+                <include>ch.qos.logback:logback-access</include>
+                <include>ch.qos.logback:logback-core</include>
+            </includes>
+        </dependencySet>
+    </dependencySets>
+
     <fileSets>
         <fileSet>
             <directory>${project.basedir}</directory>
