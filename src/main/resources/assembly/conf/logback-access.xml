@@ -17,28 +17,28 @@
     <property name="max.retention.days" value="60" />
 
     <!-- always good activate OnConsoleStatusListener -->
-    <statusListener class="org.apache.juli.logging.ch.qos.logback.core.status.OnConsoleStatusListener" /> 
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" /> 
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder class="org.apache.juli.logging.ch.qos.logback.access.PatternLayoutEncoder">
+        <encoder class="ch.qos.logback.access.PatternLayoutEncoder">
             <pattern>common</pattern>
         </encoder>
     </appender>
 
     <!-- Alternative using logstash
-    <appender name="CONSOLE" class="org.apache.juli.logging.ch.qos.logback.core.ConsoleAppender">
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="net.logstash.logback.encoder.LogstashAccessEncoder" />
     </appender>
     -->
 
-    <appender name="ACCESS-LOG" class="org.apache.juli.logging.ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="ACCESS-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.base}/logs/localhost-access.log</file>
         <append>true</append>
-        <encoder class="org.apache.juli.logging.ch.qos.logback.access.PatternLayoutEncoder">
+        <encoder class="ch.qos.logback.access.PatternLayoutEncoder">
             <charset>utf-8</charset>
             <pattern>common</pattern>
         </encoder>
-        <rollingPolicy class="org.apache.juli.logging.ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${catalina.base}/logs/archive/localhost-access-%d{yyyyMMdd}-%i.log.tar.gz</fileNamePattern> 
             <maxHistory>${max.retention.days}</maxHistory>
             <maxFileSize>20MB</maxFileSize>
@@ -46,11 +46,11 @@
     </appender>
 
     <!-- Alternative using logstash
-    <appender name="ACCESS-LOG" class="org.apache.juli.logging.ch.qos.logback.core.rolling.RollingFileAppender">
+    <appender name="ACCESS-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.base}/logs/localhost-access.log</file>
         <append>true</append>
         <encoder class="net.logstash.logback.encoder.LogstashAccessEncoder" />
-        <rollingPolicy class="org.apache.juli.logging.ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${catalina.base}/logs/archive/localhost-access-%d{yyyyMMdd}-%i.log.tar.gz</fileNamePattern> 
             <maxHistory>${max.retention.days}</maxHistory>
             <maxFileSize>20MB</maxFileSize>
