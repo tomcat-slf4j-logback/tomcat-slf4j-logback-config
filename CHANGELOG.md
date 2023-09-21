@@ -1,5 +1,13 @@
 Notable Changes
 ---------------
+Release 1.4.0
+
+ - Update logback/slf4j licenses
+ - Add license and notice for jackson
+ - Add snippet for logstash in logback-access and logback xml files
+ - Add tomcat notice
+ - note: Tried to see about shading logback access but it has no access to the tomcat classloader needed so that cannot be shaded.  So access logs for logback and logstash will still require how those are documented on setup.
+
 Release 1.3.0
 
  - Require java 8
