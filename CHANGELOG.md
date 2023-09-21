@@ -1,9 +1,5 @@
 Notable Changes
 ---------------
-Release 1.4.0
-
- - Drop collection of logback-access and logback-core as we will shade them now to avoid any other potential conflicts
-
 Release 1.3.0
 
  - Require java 8
