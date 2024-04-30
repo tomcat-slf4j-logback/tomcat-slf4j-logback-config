@@ -33,6 +33,7 @@
                 <include>ch.qos.logback:logback-access</include>
                 <include>ch.qos.logback:logback-core</include>
                 <include>ch.qos.logback.access:tomcat</include>
+                <include>ch.qos.logback.access:common</include>
             </includes>
         </dependencySet>
     </dependencySets>
