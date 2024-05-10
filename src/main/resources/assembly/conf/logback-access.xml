@@ -20,7 +20,12 @@
     <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" /> 
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- For logback-access 1.x -->
         <encoder class="ch.qos.logback.access.PatternLayoutEncoder">
+            <pattern>common</pattern>
+        </encoder>
+        <!-- For logback-access 2.x -->
+        <encoder class="ch.qos.logback.access.common.PatternLayoutEncoder">
             <pattern>common</pattern>
         </encoder>
     </appender>
@@ -34,7 +39,13 @@
     <appender name="ACCESS-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${catalina.base}/logs/localhost-access.log</file>
         <append>true</append>
+        <!-- For logback-access 1.x -->
         <encoder class="ch.qos.logback.access.PatternLayoutEncoder">
+            <charset>utf-8</charset>
+            <pattern>common</pattern>
+        </encoder>
+        <!-- For logback-access 2.x -->
+        <encoder class="ch.qos.logback.access.common.PatternLayoutEncoder">
             <charset>utf-8</charset>
             <pattern>common</pattern>
         </encoder>
