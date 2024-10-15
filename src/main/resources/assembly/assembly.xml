@@ -29,11 +29,13 @@
             <scope>runtime</scope>
             <outputDirectory>lib</outputDirectory>
             <includes>
-                <!-- Keep legacy access until tomcat 9 retired -->
+                <!-- Keep legacy logback access until tomcat 9 retired -->
                 <include>ch.qos.logback:logback-access</include>
                 <include>ch.qos.logback:logback-core</include>
-                <include>ch.qos.logback.access:tomcat</include>
-                <include>ch.qos.logback.access:common</include>
+
+                <!-- Modern logback access -->
+                <include>ch.qos.logback.access:logback-access-tomcat</include>
+                <include>ch.qos.logback.access:logback-access-common</include>
             </includes>
         </dependencySet>
     </dependencySets>
