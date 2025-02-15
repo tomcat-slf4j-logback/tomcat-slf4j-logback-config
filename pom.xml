@@ -59,5 +59,8 @@
     <build>
         <!-- Ensure we use default naming here as the override for module names does not matter here -->
         <finalName>${project.name}-${project.version}</finalName>
+
+        <!-- Automatic Module Name -->
+        <module.name>com.github.tomcat11.slf4j.logback.config</module.name>
     </build>
 </project>
