@@ -59,6 +59,13 @@
     <properties>
         <!-- Automatic Module Name -->
         <module.name>com.github.tomcat11.slf4j.logback.config</module.name>
+
+        <!-- Make sure components used by final downstreams are simply marked n/a inside manifest. -->
+        <jackson.version>n/a</jackson.version>
+        <logstash.version>n/a</logstash.version>
+        <tomcat.version>n/a</tomcat.version>
+        <slf4j.version>n/a</slf4j.version>
+        <logback.version>n/a</logback.version>
     </properties>
 
     <build>
