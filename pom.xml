@@ -56,11 +56,13 @@
         <tag>HEAD</tag>
     </scm>
 
-    <build>
-        <!-- Ensure we use default naming here as the override for module names does not matter here -->
-        <finalName>${project.name}-${project.version}</finalName>
-
+    <properties>
         <!-- Automatic Module Name -->
         <module.name>com.github.tomcat11.slf4j.logback.config</module.name>
+    </properties>
+
+    <build>
+        <!-- Ensure we use default naming here as the override tomcat-juli named usage from parent. -->
+        <finalName>${project.name}-${project.version}</finalName>
     </build>
 </project>
