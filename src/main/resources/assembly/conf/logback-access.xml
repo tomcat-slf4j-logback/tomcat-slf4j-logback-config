@@ -15,9 +15,10 @@
 <configuration>
 
     <property name="max.retention.days" value="60" />
+    <property name="max.file.size" value="20MB" />
 
     <!-- always good activate OnConsoleStatusListener -->
-    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" /> 
+    <statusListener class="ch.qos.logback.core.status.OnConsoleStatusListener" />
 
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <!-- For logback-access 1.x -->
@@ -52,7 +53,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${catalina.base}/logs/archive/localhost-access-%d{yyyyMMdd}-%i.log.tar.gz</fileNamePattern> 
             <maxHistory>${max.retention.days}</maxHistory>
-            <maxFileSize>20MB</maxFileSize>
+            <maxFileSize>${max.file.size}</maxFileSize>
         </rollingPolicy>
     </appender>
 
@@ -64,7 +65,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${catalina.base}/logs/archive/localhost-access-%d{yyyyMMdd}-%i.log.tar.gz</fileNamePattern> 
             <maxHistory>${max.retention.days}</maxHistory>
-            <maxFileSize>20MB</maxFileSize>
+            <maxFileSize>${max.file.size}</maxFileSize>
         </rollingPolicy>
     </appender>
     -->
