@@ -41,6 +41,42 @@
         <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/actions</url>
     </ciManagement>
 
+    <developers>
+        <developer>
+            <id>grgrzybek</id>
+            <name>Grzegorz Grzybek</name>
+            <email>grgrzybek@hotmail.com</email>
+            <url>https://www.linkedin.com/in/grgrzybek</url>
+            <organization>grgrzybek</organization>
+            <organizationUrl>https://github.com/grgrzybek/</organizationUrl>
+            <roles>
+                <role>Architect</role>
+                <role>Developer</role>
+            </roles>
+            <timezone>+1</timezone>
+            <properties>
+                <picUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/043/3fe/29c33c6.jpg</picUrl>
+            </properties>
+        </developer>
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Jeremy Landis</name>
+            <email>jeremylandis@hotmail.com</email>
+            <url>https://www.linkedin.com/pub/jeremy-landis/19/b27/548/</url>
+            <organization>hazendaz</organization>
+            <organizationUrl>https://github.com/hazendaz</organizationUrl>
+            <roles>
+                <role>Developer</role>
+            </roles>
+            <timezone>-5</timezone>
+            <properties>
+                <picUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/128/174/30cff69.jpg</picUrl>
+            </properties>
+        </contributor>
+    </contributors>
+
     <distributionManagement>
         <site>
             <id>gh-pages-scm</id>
@@ -48,6 +84,32 @@
             <url>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</url>
         </site>
     </distributionManagement>
+
+    <licenses>
+        <license>
+            <name>Eclipse Public License</name>
+            <url>https://raw.github.com/Waffle/waffle/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>Tomcat License</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>manual</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+        <license>
+            <name>Logback License</name>
+            <url>https://logback.qos.ch/license.html</url>
+            <distribution>manual</distribution>
+            <comments>Dual-licensed under the EPL v1.0 and the LGPL 2.1</comments>
+        </license>
+        <license>
+            <name>Slf4j License</name>
+            <url>http://slf4j.org/license.html</url>
+            <distribution>manual</distribution>
+            <comments>MIT license</comments>
+        </license>
+    </licenses>
 
     <scm>
         <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</connection>
