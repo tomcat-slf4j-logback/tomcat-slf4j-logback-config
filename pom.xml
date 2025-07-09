@@ -41,42 +41,6 @@
         <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/actions</url>
     </ciManagement>
 
-    <developers>
-        <developer>
-            <id>grgrzybek</id>
-            <name>Grzegorz Grzybek</name>
-            <email>grgrzybek@hotmail.com</email>
-            <url>https://www.linkedin.com/in/grgrzybek</url>
-            <organization>grgrzybek</organization>
-            <organizationUrl>https://github.com/grgrzybek/</organizationUrl>
-            <roles>
-                <role>Architect</role>
-                <role>Developer</role>
-            </roles>
-            <timezone>+1</timezone>
-            <properties>
-                <picUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/2/005/043/3fe/29c33c6.jpg</picUrl>
-            </properties>
-        </developer>
-    </developers>
-
-    <contributors>
-        <contributor>
-            <name>Jeremy Landis</name>
-            <email>jeremylandis@hotmail.com</email>
-            <url>https://www.linkedin.com/pub/jeremy-landis/19/b27/548/</url>
-            <organization>hazendaz</organization>
-            <organizationUrl>https://github.com/hazendaz</organizationUrl>
-            <roles>
-                <role>Developer</role>
-            </roles>
-            <timezone>-5</timezone>
-            <properties>
-                <picUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/000/128/174/30cff69.jpg</picUrl>
-            </properties>
-        </contributor>
-    </contributors>
-
     <distributionManagement>
         <site>
             <id>gh-pages-scm</id>
@@ -88,7 +52,7 @@
     <licenses>
         <license>
             <name>Eclipse Public License</name>
-            <url>https://raw.github.com/Waffle/waffle/master/LICENSE</url>
+            <url>https://raw.githubusercontent.com/tomcat-slf4j-logback/tomcat-slf4j-logback-parent/refs/heads/master/LICENSE</url>
             <distribution>repo</distribution>
         </license>
         <license>
