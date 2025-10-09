@@ -25,7 +25,7 @@
 
     <groupId>com.github.tomcat-slf4j-logback</groupId>
     <artifactId>tomcat-slf4j-logback-config</artifactId>
-    <version>1.6.6</version>
+    <version>1.6.7-SNAPSHOT</version>
 
     <name>tomcat-slf4j-logback-config</name>
     <description>Tomcat Slf4j Logback Integration Configuration</description>
@@ -79,7 +79,7 @@
         <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</developerConnection>
         <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config</url>
-        <tag>tomcat-slf4j-logback-config-1.6.6</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
