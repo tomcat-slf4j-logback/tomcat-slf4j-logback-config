@@ -3,7 +3,7 @@
 
     Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/)
 
-    Copyright (c) 2010-2025 Tomcat-Slf4j-Logback.
+    Copyright (c) 2010-2026 Tomcat-Slf4j-Logback.
 
     All rights reserved. This program and the accompanying materials are made available under the
     terms of the Eclipse Public License v1.0 which accompanies this distribution, and is available
@@ -31,6 +31,32 @@
     <description>Tomcat Slf4j Logback Integration Configuration</description>
 
     <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config</url>
+
+    <licenses>
+        <license>
+            <name>Eclipse Public License</name>
+            <url>https://raw.githubusercontent.com/tomcat-slf4j-logback/tomcat-slf4j-logback-parent/refs/heads/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>Tomcat, Jackson, and Logstash License</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>manual</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+        <license>
+            <name>Logback License</name>
+            <url>https://logback.qos.ch/license.html</url>
+            <distribution>manual</distribution>
+            <comments>Dual-licensed under the EPL v1.0 and the LGPL 2.1</comments>
+        </license>
+        <license>
+            <name>Slf4j License</name>
+            <url>http://slf4j.org/license.html</url>
+            <distribution>manual</distribution>
+            <comments>MIT license</comments>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
@@ -66,6 +92,13 @@
         </developer>
     </developers>
 
+    <scm>
+        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config</url>
+    </scm>
+
     <issueManagement>
         <system>GitHub</system>
         <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config/issues</url>
@@ -82,39 +115,6 @@
             <url>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</url>
         </site>
     </distributionManagement>
-
-    <licenses>
-        <license>
-            <name>Eclipse Public License</name>
-            <url>https://raw.githubusercontent.com/tomcat-slf4j-logback/tomcat-slf4j-logback-parent/refs/heads/master/LICENSE</url>
-            <distribution>repo</distribution>
-        </license>
-        <license>
-            <name>Tomcat, Jackson, and Logstash License</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>manual</distribution>
-            <comments>A business-friendly OSS license</comments>
-        </license>
-        <license>
-            <name>Logback License</name>
-            <url>https://logback.qos.ch/license.html</url>
-            <distribution>manual</distribution>
-            <comments>Dual-licensed under the EPL v1.0 and the LGPL 2.1</comments>
-        </license>
-        <license>
-            <name>Slf4j License</name>
-            <url>http://slf4j.org/license.html</url>
-            <distribution>manual</distribution>
-            <comments>MIT license</comments>
-        </license>
-    </licenses>
-
-    <scm>
-        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config.git</developerConnection>
-        <url>https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback-config</url>
-        <tag>HEAD</tag>
-    </scm>
 
     <properties>
         <!-- Automatic Module Name -->
