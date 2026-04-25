@@ -113,7 +113,7 @@
 
     <properties>
         <!-- Automatic Module Name -->
-        <module.name>com.github.tomcat11.slf4j.logback.config</module.name>
+        <module.name>com.github.tomcat.slf4j.logback.config</module.name>
 
         <!-- Make sure components used by final downstreams are simply marked n/a inside manifest. -->
         <jackson.version>n/a</jackson.version>
