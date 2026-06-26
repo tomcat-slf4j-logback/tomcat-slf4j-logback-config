@@ -48,6 +48,7 @@
             <directory>${project.build.directory}/tomcat-slfj4-logback-config/assembly/</directory>
             <outputDirectory />
             <includes>
+                <include>LICENSE-commons-logging.txt</include>
                 <include>LICENSE-jackson.txt</include>
                 <include>LICENSE-logback.txt</include>
                 <include>LICENSE-slf4j.txt</include>
