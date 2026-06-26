@@ -53,6 +53,8 @@
                 <include>LICENSE-logback.txt</include>
                 <include>LICENSE-slf4j.txt</include>
                 <include>LICENSE-tomcat.txt</include>
+                <include>NOTICE-jackson.txt</include>
+                <include>NOTICE-tomcat.txt</include>
             </includes>
             <lineEnding>unix</lineEnding>
         </fileSet>
